@@ -62,7 +62,7 @@ services:
     # services for lavamusic
     lavamusic:
         container_name: lavamusic
-        image: ghcr.io/khairasaabop/chaand-music-bot:main
+        image: khairasaab748/scout-demo:main
         environment:
             # lavalink nodes
             - NODES=[{"id":"LavaMusic","host":"lavalink","port":2333,"authorization":"youshallnotpass"}]
